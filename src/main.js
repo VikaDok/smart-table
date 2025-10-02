@@ -13,6 +13,7 @@ import { initSorting } from "./components/sorting.js";
 import { initFiltering } from "./components/filtering.js";
 import { initSearching } from "./components/searching.js";
 
+//02.10.25 ПР7
 
 // Исходные данные используемые в render()
 const api = initData(sourceData);
