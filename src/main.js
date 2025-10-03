@@ -1,5 +1,5 @@
-import './fonts/ys-display/fonts.css'
-import './style.css'
+// import './fonts/ys-display/fonts.css';
+// import './style.css';
 
 import { data as sourceData } from "./data/dataset_1.js";
 
@@ -80,9 +80,8 @@ const applySorting = initSorting([        // Нам нужно передать 
     sampleTable.header.elements.sortByTotal
 ]);
 
-const { applyFiltering, updateIndexes } = initFiltering(sampleTable.filter.elements,     // передаём элементы фильтра
+const { applyFiltering, updateIndexes } = initFiltering(sampleTable.filter.elements);     // передаём элементы фильтра
 
-);
 
 const applySearching = initSearching(sampleTable.search.elements.search.name);
 // console.log(sampleTable.search.elements.search.name);
