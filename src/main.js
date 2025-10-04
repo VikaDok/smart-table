@@ -84,8 +84,6 @@ const { applyFiltering, updateIndexes } = initFiltering(sampleTable.filter.eleme
 
 
 const applySearching = initSearching(sampleTable.search.elements.search.name);
-// console.log(sampleTable.search.elements.search.name);
-
 
 const appRoot = document.querySelector('#app');
 appRoot.appendChild(sampleTable.container);
